@@ -1,4 +1,4 @@
 hello2
 hello3!
 hi there
-merge test!!!
+self-merge
