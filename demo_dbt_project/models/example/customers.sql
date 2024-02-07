@@ -1,3 +1,7 @@
+{{ config(
+    materialized='table'
+ ) }}
+
 select distinct c.id as customer_id
      , c.name
      , c.email
@@ -8,4 +12,4 @@ select distinct c.id as customer_id
 group by c.id
      , c.name
      , c.email
-order by first_order_at;
+order by first_order_at
