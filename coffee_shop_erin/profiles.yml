@@ -1,9 +1,9 @@
-default:
+coffee_shop:
   outputs:
     dev:
       type: bigquery
       method: oauth
-      project: aec-students
+      project: prime-pod-412820
       schema: dbt_erinh # Adjust this to dbt_<your_github_username>.
       threads: 8
       timeout_seconds: 300
