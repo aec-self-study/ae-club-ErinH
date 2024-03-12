@@ -1,0 +1,285 @@
+[0m21:00:38.912242 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0bc117ee30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0bc1911120>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0bc19110c0>]}
+
+
+============================== 21:00:38.917806 | 285072b9-352c-4d24-b3b6-459554666f23 ==============================
+[0m21:00:38.917806 [info ] [MainThread]: Running with dbt=1.7.6
+[0m21:00:38.918943 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/vscode/.dbt', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt init demo-dbt-project', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m21:00:38.919687 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': PosixPath('/home/vscode/.dbt')}
+[0m21:00:38.920507 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m21:01:14.646661 [debug] [MainThread]: Starter project path: /home/vscode/.local/lib/python3.10/site-packages/dbt/include/starter_project
+[0m21:01:14.676574 [info ] [MainThread]: 
+Your new dbt project "demo_dbt_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m21:01:14.677171 [info ] [MainThread]: Setting up your profile.
+[0m21:03:33.268105 [info ] [MainThread]: Profile demo_dbt_project written to /home/vscode/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m21:03:33.274628 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 174.36568, "process_user_time": 2.053666, "process_kernel_time": 0.186792, "process_mem_max_rss": "108456", "process_in_blocks": "472", "process_out_blocks": "88"}
+[0m21:03:33.275461 [debug] [MainThread]: Command `dbt init` succeeded at 21:03:33.275238 after 174.37 seconds
+[0m21:03:33.276253 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0bc117ee30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0bbdfd23e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0bbdfd05e0>]}
+[0m21:03:33.276780 [debug] [MainThread]: Flushing usage events
+[0m21:03:44.711063 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f84330cb1f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f84337526b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8433752620>]}
+
+
+============================== 21:03:44.713556 | 36a027cb-4220-4f9c-b65d-632cc6b719a7 ==============================
+[0m21:03:44.713556 [info ] [MainThread]: Running with dbt=1.7.6
+[0m21:03:44.714231 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/vscode/.dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'invocation_command': 'dbt debug', 'send_anonymous_usage_stats': 'True'}
+[0m21:03:44.714815 [info ] [MainThread]: dbt version: 1.7.6
+[0m21:03:44.715298 [info ] [MainThread]: python version: 3.10.12
+[0m21:03:44.715770 [info ] [MainThread]: python path: /usr/local/python/current/bin/python
+[0m21:03:44.716269 [info ] [MainThread]: os info: Linux-6.2.0-1018-azure-x86_64-with-glibc2.35
+[0m21:03:45.046953 [info ] [MainThread]: Using profiles dir at /home/vscode/.dbt
+[0m21:03:45.047586 [info ] [MainThread]: Using profiles.yml file at /home/vscode/.dbt/profiles.yml
+[0m21:03:45.048128 [info ] [MainThread]: Using dbt_project.yml file at /workspaces/ae-club-ErinH/dbt_project.yml
+[0m21:03:45.048767 [info ] [MainThread]: adapter type: bigquery
+[0m21:03:45.049243 [info ] [MainThread]: adapter version: 1.7.3
+[0m21:03:45.049731 [info ] [MainThread]: Configuration:
+[0m21:03:45.050195 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m21:03:45.050666 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m21:03:45.051140 [info ] [MainThread]: Required dependencies:
+[0m21:03:45.051614 [debug] [MainThread]: Executing "git --help"
+[0m21:03:45.054350 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m21:03:45.055051 [debug] [MainThread]: STDERR: "b''"
+[0m21:03:45.055564 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m21:03:45.056094 [info ] [MainThread]: Connection:
+[0m21:03:45.056588 [info ] [MainThread]:   method: oauth
+[0m21:03:45.057088 [info ] [MainThread]:   database: prime-pod-412820
+[0m21:03:45.057611 [info ] [MainThread]:   execution_project: prime-pod-412820
+[0m21:03:45.058110 [info ] [MainThread]:   schema: test
+[0m21:03:45.058581 [info ] [MainThread]:   location: US
+[0m21:03:45.059038 [info ] [MainThread]:   priority: interactive
+[0m21:03:45.059493 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m21:03:45.059976 [info ] [MainThread]:   impersonate_service_account: None
+[0m21:03:45.060447 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m21:03:45.060909 [info ] [MainThread]:   job_retries: 1
+[0m21:03:45.061435 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m21:03:45.061931 [info ] [MainThread]:   job_execution_timeout_seconds: 300
+[0m21:03:45.062446 [info ] [MainThread]:   keyfile: None
+[0m21:03:45.063087 [info ] [MainThread]:   timeout_seconds: 300
+[0m21:03:45.064006 [info ] [MainThread]:   refresh_token: None
+[0m21:03:45.064678 [info ] [MainThread]:   client_id: None
+[0m21:03:45.065293 [info ] [MainThread]:   token_uri: None
+[0m21:03:45.065797 [info ] [MainThread]:   dataproc_region: None
+[0m21:03:45.066333 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m21:03:45.066841 [info ] [MainThread]:   gcs_bucket: None
+[0m21:03:45.068448 [info ] [MainThread]:   dataproc_batch: None
+[0m21:03:45.069394 [info ] [MainThread]: Registered adapter: bigquery=1.7.3
+[0m21:03:45.080922 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m21:03:45.081547 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m21:03:54.095698 [debug] [MainThread]: BigQuery adapter: Got an error when attempting to create a bigquery client: 'Runtime Error
+  
+  dbt encountered an error while trying to read your profiles.yml file.
+  
+  Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+  '
+[0m21:03:54.096476 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m21:03:54.097028 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m21:03:54.097521 [info ] [MainThread]: Project loading failed for the following reason:
+ project path </workspaces/ae-club-ErinH/dbt_project.yml> not found
+
+[0m21:03:54.098017 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  Runtime Error
+    
+    dbt encountered an error while trying to read your profiles.yml file.
+    
+    Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+    
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m21:03:54.099001 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_wall_clock_time": 9.43007, "process_user_time": 2.160356, "process_kernel_time": 0.184058, "process_mem_max_rss": "110104", "process_in_blocks": "104", "process_out_blocks": "24", "command_success": false}
+[0m21:03:54.099649 [debug] [MainThread]: Command `dbt debug` failed at 21:03:54.099501 after 9.43 seconds
+[0m21:03:54.100089 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m21:03:54.100517 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f84330cb1f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f842fc9ef20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f842fc9ee30>]}
+[0m21:03:54.100990 [debug] [MainThread]: Flushing usage events
+[0m21:07:32.921602 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff059a4b1f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff05a0d26b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff05a0d2650>]}
+
+
+============================== 21:07:32.924111 | 99bf85ea-91b5-4ce5-a2e6-bf83ec5728fe ==============================
+[0m21:07:32.924111 [info ] [MainThread]: Running with dbt=1.7.6
+[0m21:07:32.924814 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': '/home/vscode/.dbt', 'log_path': 'logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'invocation_command': 'dbt init erinh_dbt_test', 'send_anonymous_usage_stats': 'True'}
+[0m21:07:32.925699 [debug] [MainThread]: Starter project path: /home/vscode/.local/lib/python3.10/site-packages/dbt/include/starter_project
+[0m21:07:32.930398 [info ] [MainThread]: 
+Your new dbt project "erinh_dbt_test" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m21:07:32.931054 [info ] [MainThread]: Setting up your profile.
+[0m21:08:05.930861 [error] [MainThread]: Encountered an error:
+
+[0m21:08:05.937709 [error] [MainThread]: Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.10/site-packages/dbt/cli/requires.py", line 91, in wrapper
+    result, success = func(*args, **kwargs)
+  File "/home/vscode/.local/lib/python3.10/site-packages/dbt/cli/requires.py", line 76, in wrapper
+    return func(*args, **kwargs)
+  File "/home/vscode/.local/lib/python3.10/site-packages/dbt/cli/main.py", line 515, in init
+    results = task.run()
+  File "/home/vscode/.local/lib/python3.10/site-packages/dbt/task/init.py", line 344, in run
+    self.setup_profile(profile_name)
+  File "/home/vscode/.local/lib/python3.10/site-packages/dbt/task/init.py", line 264, in setup_profile
+    self.create_profile_from_target(adapter, profile_name=profile_name)
+  File "/home/vscode/.local/lib/python3.10/site-packages/dbt/task/init.py", line 181, in create_profile_from_target
+    self.create_profile_from_profile_template(profile_template, profile_name)
+  File "/home/vscode/.local/lib/python3.10/site-packages/dbt/task/init.py", line 165, in create_profile_from_profile_template
+    target = self.generate_target_from_input(prompts, initial_target)
+  File "/home/vscode/.local/lib/python3.10/site-packages/dbt/task/init.py", line 118, in generate_target_from_input
+    target = self.generate_target_from_input(
+  File "/home/vscode/.local/lib/python3.10/site-packages/dbt/task/init.py", line 131, in generate_target_from_input
+    target[key] = click.prompt(
+  File "/home/vscode/.local/lib/python3.10/site-packages/click/termui.py", line 164, in prompt
+    value = prompt_func(prompt)
+  File "/home/vscode/.local/lib/python3.10/site-packages/click/termui.py", line 147, in prompt_func
+    raise Abort() from None
+click.exceptions.Abort
+
+[0m21:08:05.938929 [debug] [MainThread]: Resource report: {"command_name": "init", "command_wall_clock_time": 33.05823, "process_user_time": 2.093043, "process_kernel_time": 0.166533, "process_mem_max_rss": "109488", "process_in_blocks": "152", "process_out_blocks": "80", "command_success": false}
+[0m21:08:05.939612 [debug] [MainThread]: Command `dbt init` failed at 21:08:05.939456 after 33.06 seconds
+[0m21:08:05.940155 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff059a4b1f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff056756b00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff056757370>]}
+[0m21:08:05.940666 [debug] [MainThread]: Flushing usage events
+[0m21:34:57.161934 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f96af34b1f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f96af9d27d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f96af9d2770>]}
+
+
+============================== 21:34:57.164388 | fc18f4d7-557c-4cbc-8864-916dfeb6e749 ==============================
+[0m21:34:57.164388 [info ] [MainThread]: Running with dbt=1.7.6
+[0m21:34:57.165051 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/vscode/.dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'invocation_command': 'dbt run', 'log_format': 'default', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m21:34:57.165601 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /workspaces/ae-club-ErinH/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m21:34:57.166484 [debug] [MainThread]: Resource report: {"command_name": "run", "command_wall_clock_time": 0.04599487, "process_user_time": 1.815889, "process_kernel_time": 0.151656, "process_mem_max_rss": "86700", "process_in_blocks": "16", "process_out_blocks": "8", "command_success": false}
+[0m21:34:57.167088 [debug] [MainThread]: Command `dbt run` failed at 21:34:57.166938 after 0.05 seconds
+[0m21:34:57.167520 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f96af34b1f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f96af9d2860>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f96af9d27a0>]}
+[0m21:34:57.167996 [debug] [MainThread]: Flushing usage events
+[0m22:37:36.245616 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbddd642e00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbdddcca770>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbdddcca710>]}
+
+
+============================== 22:37:36.248090 | e7725374-6de3-4d2f-930b-83a273736d8e ==============================
+[0m22:37:36.248090 [info ] [MainThread]: Running with dbt=1.7.6
+[0m22:37:36.248752 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'profiles_dir': '/home/vscode/.dbt', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'invocation_command': 'dbt run', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m22:37:36.249304 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /workspaces/ae-club-ErinH/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m22:37:36.250203 [debug] [MainThread]: Resource report: {"command_name": "run", "command_wall_clock_time": 0.047155906, "process_user_time": 1.957309, "process_kernel_time": 0.127046, "process_mem_max_rss": "86976", "process_out_blocks": "8", "command_success": false, "process_in_blocks": "0"}
+[0m22:37:36.250820 [debug] [MainThread]: Command `dbt run` failed at 22:37:36.250669 after 0.05 seconds
+[0m22:37:36.251261 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbddd642e00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbdddcca800>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbdddcca740>]}
+[0m22:37:36.251721 [debug] [MainThread]: Flushing usage events
+[0m22:35:45.185150 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fba5f072e00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fba5d4ea650>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fba5d4ea5f0>]}
+
+
+============================== 22:35:45.193127 | 0e097b60-a17f-461e-898f-bd6b7bc489c0 ==============================
+[0m22:35:45.193127 [info ] [MainThread]: Running with dbt=1.7.6
+[0m22:35:45.194024 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/vscode/.dbt', 'version_check': 'True', 'warn_error': 'None', 'log_path': 'logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt init', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m22:36:02.023443 [debug] [MainThread]: Starter project path: /home/vscode/.local/lib/python3.10/site-packages/dbt/include/starter_project
+[0m22:36:02.036830 [info ] [MainThread]: 
+Your new dbt project "coffee_shop_erin" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m22:36:02.037775 [info ] [MainThread]: Setting up your profile.
+[0m22:36:51.063109 [info ] [MainThread]: Profile coffee_shop_erin written to /home/vscode/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m22:36:51.064561 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 65.93786, "process_user_time": 2.196183, "process_kernel_time": 0.191319, "process_mem_max_rss": "109176", "process_in_blocks": "152", "process_out_blocks": "80"}
+[0m22:36:51.065438 [debug] [MainThread]: Command `dbt init` succeeded at 22:36:51.065187 after 65.94 seconds
+[0m22:36:51.066128 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fba5f072e00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fba5bd0e920>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fba5bd0fdc0>]}
+[0m22:36:51.066708 [debug] [MainThread]: Flushing usage events
+[0m22:47:28.053149 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5619286e60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f56176fe6e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f56176fe680>]}
+
+
+============================== 22:47:28.055818 | 1dfb337f-ef8e-4aef-aff9-06de9b6c83f0 ==============================
+[0m22:47:28.055818 [info ] [MainThread]: Running with dbt=1.7.6
+[0m22:47:28.056544 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/vscode/.dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt run', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m22:47:28.057127 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /workspaces/ae-club-ErinH/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m22:47:28.058142 [debug] [MainThread]: Resource report: {"command_name": "run", "command_wall_clock_time": 0.051911313, "process_user_time": 1.924355, "process_kernel_time": 0.108058, "process_mem_max_rss": "86912", "process_in_blocks": "744", "process_out_blocks": "16", "command_success": false}
+[0m22:47:28.058813 [debug] [MainThread]: Command `dbt run` failed at 22:47:28.058657 after 0.05 seconds
+[0m22:47:28.059280 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5619286e60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f56176fe770>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f56176fe6b0>]}
+[0m22:47:28.059760 [debug] [MainThread]: Flushing usage events
+[0m16:51:24.245154 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff5fc5b31f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff5fcd3a7d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff5fcd3a770>]}
+
+
+============================== 16:51:24.260639 | 2a900def-3e32-4ac5-b450-a9a0c6f83592 ==============================
+[0m16:51:24.260639 [info ] [MainThread]: Running with dbt=1.7.6
+[0m16:51:24.261532 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/vscode/.dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'invocation_command': 'dbt run', 'log_format': 'default', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m16:51:24.262123 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /workspaces/ae-club-ErinH/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m16:51:24.267928 [debug] [MainThread]: Resource report: {"command_name": "run", "command_wall_clock_time": 0.069589175, "process_user_time": 1.856002, "process_kernel_time": 0.278201, "process_mem_max_rss": "86668", "process_in_blocks": "57816", "process_out_blocks": "8", "command_success": false}
+[0m16:51:24.268514 [debug] [MainThread]: Command `dbt run` failed at 16:51:24.268372 after 0.07 seconds
+[0m16:51:24.268925 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff5fc5b31f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff5fcd3a860>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff5fcd3a7a0>]}
+[0m16:51:24.269422 [debug] [MainThread]: Flushing usage events
+[0m19:23:04.470218 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f264cdfb1c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f264b272680>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f264b272620>]}
+
+
+============================== 19:23:04.479397 | 1d9a732c-4dec-47be-a486-98ea0a9c1df3 ==============================
+[0m19:23:04.479397 [info ] [MainThread]: Running with dbt=1.7.6
+[0m19:23:04.480218 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': '/home/vscode/.dbt', 'log_path': 'logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt init web_tracking', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m19:23:04.481306 [debug] [MainThread]: Starter project path: /home/vscode/.local/lib/python3.10/site-packages/dbt/include/starter_project
+[0m19:23:04.508902 [info ] [MainThread]: 
+Your new dbt project "web_tracking" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m19:23:04.509610 [info ] [MainThread]: Setting up your profile.
+[0m19:25:05.547378 [info ] [MainThread]: Profile web_tracking written to /home/vscode/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m19:25:05.548773 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 121.128174, "process_user_time": 2.099425, "process_kernel_time": 0.188307, "process_mem_max_rss": "109324", "process_in_blocks": "160", "process_out_blocks": "80"}
+[0m19:25:05.549757 [debug] [MainThread]: Command `dbt init` succeeded at 19:25:05.549519 after 121.13 seconds
+[0m19:25:05.550306 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f264cdfb1c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2649abf940>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2649abf820>]}
+[0m19:25:05.550806 [debug] [MainThread]: Flushing usage events

@@ -35,4 +35,5 @@ sources:
           - name: id
             tests:
               - unique
-              - not_null          
+              - not_null
+

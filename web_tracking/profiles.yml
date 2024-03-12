@@ -1,0 +1,13 @@
+web_tracking:
+  outputs:
+    dev:
+      type: bigquery
+      method: oauth
+      project: prime-pod-412820
+      schema: dbt_erinh # Adjust this to dbt_<your_github_username>.
+      threads: 8
+      timeout_seconds: 300
+      location: US
+      priority: interactive
+      retries: 1
+  target: dev
