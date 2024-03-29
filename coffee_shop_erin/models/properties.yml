@@ -4,11 +4,15 @@ models:
   - name: customers
     description: '{{ doc("coffee_docs")}}'
     columns:
-      - name: customer_id
+      - name: id
         description: Primary key of the model
         tests:
           - unique
           - not_null
+      - name: email
+        description: email address
+        tests:
+          - email_format
 
 sources:
   - name: coffee_shop
@@ -36,4 +40,11 @@ sources:
             tests:
               - unique
               - not_null
+          - name: total
+            tests:
+              - zero_check
 
+  - name: advanced_dbt_examples
+    project: analytics-engineers-club
+    tables:
+      - name: form_events
