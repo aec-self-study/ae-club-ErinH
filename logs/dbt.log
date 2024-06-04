@@ -283,3 +283,76 @@ Happy modeling!
 [0m19:25:05.549757 [debug] [MainThread]: Command `dbt init` succeeded at 19:25:05.549519 after 121.13 seconds
 [0m19:25:05.550306 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f264cdfb1c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2649abf940>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2649abf820>]}
 [0m19:25:05.550806 [debug] [MainThread]: Flushing usage events
+[0m21:40:56.587047 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f542705f1c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f54276e6680>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f54276e6620>]}
+
+
+============================== 21:40:56.589636 | 4b370a89-8c3c-4dc7-bd26-eb2235ef9392 ==============================
+[0m21:40:56.589636 [info ] [MainThread]: Running with dbt=1.7.6
+[0m21:40:56.590290 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'version_check': 'True', 'profiles_dir': '/home/vscode/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt init customers_ltv', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m21:40:56.591302 [debug] [MainThread]: Starter project path: /home/vscode/.local/lib/python3.10/site-packages/dbt/include/starter_project
+[0m21:40:56.604845 [info ] [MainThread]: 
+Your new dbt project "customers_ltv" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m21:40:56.605383 [info ] [MainThread]: Setting up your profile.
+[0m21:42:25.763912 [info ] [MainThread]: Profile customers_ltv written to /home/vscode/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m21:42:25.765662 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 89.22722, "process_user_time": 2.161284, "process_kernel_time": 0.192168, "process_mem_max_rss": "109156", "process_in_blocks": "144", "process_out_blocks": "88"}
+[0m21:42:25.766398 [debug] [MainThread]: Command `dbt init` succeeded at 21:42:25.766237 after 89.23 seconds
+[0m21:42:25.766865 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f542705f1c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5423d60e20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5423d635b0>]}
+[0m21:42:25.767346 [debug] [MainThread]: Flushing usage events
+[0m19:25:03.252080 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbd74cdee00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbd73156650>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbd731565f0>]}
+
+
+============================== 19:25:03.261333 | 74c03f6e-3b66-4cb1-9b9a-35fa2a648ef5 ==============================
+[0m19:25:03.261333 [info ] [MainThread]: Running with dbt=1.7.6
+[0m19:25:03.261987 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/vscode/.dbt', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt init jinja_project', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m19:25:03.266766 [debug] [MainThread]: Starter project path: /home/vscode/.local/lib/python3.10/site-packages/dbt/include/starter_project
+[0m19:25:03.290033 [info ] [MainThread]: 
+Your new dbt project "jinja_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m19:25:03.290544 [info ] [MainThread]: Setting up your profile.
+[0m19:27:05.150114 [info ] [MainThread]: Profile jinja_project written to /home/vscode/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m19:27:05.156296 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 121.949, "process_user_time": 2.078593, "process_kernel_time": 0.354977, "process_mem_max_rss": "109052", "process_in_blocks": "79152", "process_out_blocks": "88"}
+[0m19:27:05.157411 [debug] [MainThread]: Command `dbt init` succeeded at 19:27:05.157155 after 121.95 seconds
+[0m19:27:05.157959 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbd74cdee00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbd7197b310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbd7197b370>]}
+[0m19:27:05.158415 [debug] [MainThread]: Flushing usage events
+[0m21:04:21.468636 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f214eb8b1c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f214f212680>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f214f212620>]}
+
+
+============================== 21:04:21.479793 | 1d7d3aef-0543-4195-9742-135997601a68 ==============================
+[0m21:04:21.479793 [info ] [MainThread]: Running with dbt=1.7.6
+[0m21:04:21.480621 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'debug': 'False', 'profiles_dir': '/home/vscode/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt deps', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m21:04:21.481407 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /workspaces/ae-club-ErinH/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m21:04:21.486265 [debug] [MainThread]: Resource report: {"command_name": "deps", "command_wall_clock_time": 0.06712157, "process_user_time": 2.065801, "process_kernel_time": 0.299157, "process_mem_max_rss": "86952", "process_in_blocks": "65584", "process_out_blocks": "8", "command_success": false}
+[0m21:04:21.487214 [debug] [MainThread]: Command `dbt deps` failed at 21:04:21.486989 after 0.07 seconds
+[0m21:04:21.488110 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f214eb8b1c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f214f2126b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f214f2133d0>]}
+[0m21:04:21.488613 [debug] [MainThread]: Flushing usage events

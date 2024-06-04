@@ -1,0 +1,6 @@
+version: 2
+ 
+models:
+  - name: order_payment_method_amounts
+    description: 'first jinja project source data'
+
